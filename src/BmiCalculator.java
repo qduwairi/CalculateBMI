@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class BmiCalculator extends JFrame implements ActionListener {
-    private double weightInPounds, heightInInches, weightInKilograms, heightInMeters;
+    private double weightInPounds, heightInInches, weightInKilograms, heightInMeters, result;
     final double INCH_IN_METER = 0.0254;
     final double POUND_IN_KILOGRAMS = 0.45359237;
 
